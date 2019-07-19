@@ -1,0 +1,38 @@
+{
+  "name": "robbin",
+  "version": "0.0.1",
+  "description": "A tiny Node JS sidekick to help separate your client side dependencies from server side dependencies",
+  "main": "index.js",
+  "bin": {
+    "robbin": "./bin/robbin-global.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumitkm/robbin.git"
+  },
+  "keywords": [
+    "robin",
+    "bower",
+    "nodejs",
+    "ui",
+    "front-end",
+    "dependencies"
+  ],
+  "author": "Sumit Kumar Maitra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sumitkm/robbin/issues"
+  },
+  "homepage": "https://github.com/sumitkm/robbin#readme",
+  "devDependencies": {
+    "@types/node": "^12.6.8",
+    "@types/yargs": "^13.0.0"
+  },
+  "dependencies": {
+    "yargs": "^13.3.0"
+  }
+}
